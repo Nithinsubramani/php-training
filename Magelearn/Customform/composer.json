@@ -1,0 +1,26 @@
+{
+    "name": "magelearn/module-customform",
+    "description": "Create Custom Form and Data Management from Backend",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "himanshu dhote",
+            "email": "himanshu.dhotei95dev.com"
+        },
+        {
+            "name": "himanshu dhote",
+            "email": "dhotehimanshu87@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\Customform\\": ""
+        }
+    }
+}
